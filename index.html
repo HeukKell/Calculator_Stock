@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>주식 평단가 계산기</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>주식 평단가 계산기</h1>
+    <div id="resultBox">
+        <span>평균가</span>
+        <span id="outputResult">값을 입력해주세요</span>
+    </div>
+
+    <fieldset>
+        <label>기존 구매 단가 : </label>
+        <input type="text" id="beforeStockValue"><br>
+        <label>기존 구매 개수 : </label>
+        <input type="text" id="beforeStockNum"><br>
+        <label>구매 예정 단가 : </label>
+        <input type="text" id="preStockValue"><br>
+        <label>구매 예정 개수 : </label>
+        <input type="text" id="preStockNum"><br>
+        <button id="btnCalc">계산</button>
+    </fieldset>
+
+
+</body>
+</html>
